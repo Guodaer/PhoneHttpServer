@@ -45,6 +45,8 @@
 		3D521FF01EC9D78D00C69D7C /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D521FBB1EC9D78D00C69D7C /* HTTPRedirectResponse.m */; };
 		3D5220051EC9D78D00C69D7C /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D521FD61EC9D78D00C69D7C /* WebSocket.m */; };
 		3D5220091EC9DCB900C69D7C /* webServer-xc in Resources */ = {isa = PBXBuildFile; fileRef = 3D5220081EC9DCB900C69D7C /* webServer-xc */; };
+		3DD1F0BB1ECA953A00EE6450 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1F0BA1ECA953A00EE6450 /* README.md */; };
+		3DD1F0BD1ECA963700EE6450 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1F0BC1ECA963700EE6450 /* 001.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +143,8 @@
 		3D5220061EC9D7EA00C69D7C /* GD_CustomCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GD_CustomCenter.h; sourceTree = "<group>"; };
 		3D5220071EC9D7F900C69D7C /* GDHeaderCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHeaderCenter.h; sourceTree = "<group>"; };
 		3D5220081EC9DCB900C69D7C /* webServer-xc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "webServer-xc"; sourceTree = "<group>"; };
+		3DD1F0BA1ECA953A00EE6450 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3DD1F0BC1ECA963700EE6450 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,8 @@
 		3D521F3D1EC9D74E00C69D7C = {
 			isa = PBXGroup;
 			children = (
+				3DD1F0BA1ECA953A00EE6450 /* README.md */,
+				3DD1F0BC1ECA963700EE6450 /* 001.png */,
 				3D521F481EC9D74E00C69D7C /* PhoneHttpServer */,
 				3D521F621EC9D74E00C69D7C /* PhoneHttpServerTests */,
 				3D521F6D1EC9D74E00C69D7C /* PhoneHttpServerUITests */,
@@ -458,6 +464,7 @@
 				3D521F591EC9D74E00C69D7C /* LaunchScreen.storyboard in Resources */,
 				3D5220091EC9DCB900C69D7C /* webServer-xc in Resources */,
 				3D521F7F1EC9D77A00C69D7C /* indextest.html in Resources */,
+				3DD1F0BD1ECA963700EE6450 /* 001.png in Resources */,
 				3D521F561EC9D74E00C69D7C /* Assets.xcassets in Resources */,
 				3D521F541EC9D74E00C69D7C /* Main.storyboard in Resources */,
 				3D521FE31EC9D78D00C69D7C /* README.txt in Resources */,
@@ -498,6 +505,7 @@
 				3D521FE91EC9D78D00C69D7C /* MultipartMessageHeader.m in Sources */,
 				3D521F511EC9D74E00C69D7C /* ViewController.m in Sources */,
 				3D521F4E1EC9D74E00C69D7C /* AppDelegate.m in Sources */,
+				3DD1F0BB1ECA953A00EE6450 /* README.md in Sources */,
 				3D521FE71EC9D78D00C69D7C /* HTTPServer.m in Sources */,
 				3D521FE81EC9D78D00C69D7C /* MultipartFormDataParser.m in Sources */,
 				3D521FEF1EC9D78D00C69D7C /* HTTPFileResponse.m in Sources */,
@@ -754,6 +762,7 @@
 				3D521F751EC9D74E00C69D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D521F761EC9D74E00C69D7C /* Build configuration list for PBXNativeTarget "PhoneHttpServerTests" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +771,7 @@
 				3D521F781EC9D74E00C69D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D521F791EC9D74E00C69D7C /* Build configuration list for PBXNativeTarget "PhoneHttpServerUITests" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +780,7 @@
 				3D521F7B1EC9D74E00C69D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
