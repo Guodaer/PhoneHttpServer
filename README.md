@@ -4,3 +4,4 @@
 项目中的001.png    选择create floder references 也就是拖进工程之后，文件夹是蓝色的！！！！
 ![image](https://github.com/GD1207/PhoneHttpServer/001.png)  图片怎么不显示呢.....~~~~(>_<)~~~~
 
+![](./001.png)
